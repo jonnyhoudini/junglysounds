@@ -1,0 +1,84 @@
+* {
+    cursor: url('images/cursor.png'), auto;
+}
+
+body {
+  text-align: center;
+  background-image: url('background.jpg');
+}
+
+h1 {
+  font-size: 8rem;
+  color: #DBEDF3;
+  font-family: "Cabin Sketch", cursive;
+  text-shadow: 3px 0 #CA6702;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.w {
+background-image: url(images/monkey.svg);
+}
+
+.a {
+background-image: url(images/lion.svg);
+}
+
+.s {
+background-image: url(images/rhino.svg);
+}
+
+.d {
+background-image: url(images/giraffe.svg);
+}
+
+/* .j {
+background-image: url(images/crash.png);
+}
+
+.k {
+background-image: url(images/kick.png);
+}
+
+.l {
+background-image: url(images/snare.png);
+} */
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #265718;
+  font-size: 4rem;
+  font-family: 'Cabin Sketch', cursive;
+  line-height: 2;
+  color: #CA6702;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
